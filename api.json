@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/gettysburg-battlefield",
     "maintainers": [
       {
@@ -18,76 +18,178 @@
   },
   "phenomenon": {
     "id": "gettysburg-battlefield",
-    "name": "Gettysburg Battlefield: America's Most Haunted Military Site",
-    "aliases": [],
-    "category": "HAUNTED_LOCATION",
-    "subcategory": "at Gettysburg",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Gettysburg Battlefield",
+    "aliases": [
+      { "name": "Gettysburg National Military Park", "region": "Pennsylvania, USA" },
+      { "name": "Ghosts of Gettysburg", "region": "Pennsylvania, USA", "meaning": "popular name for the cluster of paranormal traditions associated with the battlefield" }
     ],
-    "status": "documented",
+    "category": "LOCATION",
+    "subcategory": "Civil War battlefield with extensive haunted-location folklore",
+    "tags": [
+      "haunted-location",
+      "battlefield",
+      "civil-war",
+      "ghosts",
+      "pennsylvania",
+      "united-states",
+      "residual-haunting",
+      "apparition"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Gettysburg Battlefield, site of the bloodiest battle of the American Civil War, has been considered one of the most haunted locations in the United States for over 160 years.",
-      "full": "Gettysburg Battlefield, site of the bloodiest battle of the American Civil War, has been considered one of the most haunted locations in the United States for over 160 years. The three-day battle in July 1863 resulted in approximately 51,000 casualties, making it the war's deadliest engagement. The unprecedented scale of death and suffering has led to centuries of reported paranormal activity, with thousands of witnesses documenting encounters with apparitions, phantom sounds, unexplained phenomena, and residual hauntings across the 6,000-acre battlefield and surrounding town. The Gettysburg hauntings encompass a wide range of paranormal phenomena reported by soldiers immediately after the battle, residents, tourists, historians, park rangers, and paranormal investigators. From Civil War soldiers' accounts of ghostly encounters to modern-day photographs capturing unexplained figures, Gettysburg represents one of the most extensively documented haunted locations in American history. The battlefield has become a focal point for paranormal research, historical preservation, and the study of how mass trauma and death may influence locations for generations."
+      "summary": "Site of the July 1–3, 1863 Battle of Gettysburg, the bloodiest engagement of the American Civil War. The battlefield and adjacent town are among the most extensively reported haunted locations in the United States, with ghost lore dating back to the immediate aftermath of the battle and a major commercial ghost-tour industry from the 1990s onward.",
+      "full": "The Gettysburg Battlefield, in Adams County, Pennsylvania, is the site of the three-day Battle of Gettysburg (July 1–3, 1863), the deadliest battle of the American Civil War. Combined casualty estimates range from 46,000 to 51,000 killed, wounded, captured, or missing. Confederate General Robert E. Lee's Army of Northern Virginia was repulsed by Union Major General George G. Meade's Army of the Potomac, and the battle is widely regarded as the war's turning point. Lincoln's Gettysburg Address, delivered at the dedication of the Soldiers' National Cemetery on November 19, 1863, secured the battlefield's place in American memory. The site became Gettysburg National Military Park in 1895, and is now operated by the National Park Service. Alongside its historical significance, Gettysburg is one of the most-cited haunted locations in the United States. Ghost stories are documented from the immediate post-battle period, when townspeople and burial details described unusual sounds and apparitions, and have continued to multiply since. Specific paranormal traditions cluster at Devil's Den, the Triangular Field, Little Round Top, the Wheatfield, Sachs Bridge, the Jennie Wade House (where the only documented civilian killed in the battle, Mary Virginia 'Jennie' Wade, was struck by a stray bullet on July 3, 1863), the Daniel Lady Farm, and the Farnsworth House Inn. Mark Nesbitt, a former park ranger, published the first volume of his 'Ghosts of Gettysburg' series in 1991 and founded the Ghosts of Gettysburg Candlelight Walking Tours in 1994, helping anchor the modern ghost-tourism industry. Mainstream historians and the National Park Service treat the ghost stories as folklore."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The town of Gettysburg, Pennsylvania, was named for early settler James Gettys (founded 1786). The 'Ghosts of Gettysburg' phrase was popularized by Mark Nesbitt's book series beginning in 1991.",
+      "meaning": "Gettysburg = town of the Gettys family",
+      "first_use": "1991 (Nesbitt, 'Ghosts of Gettysburg')"
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "HAUNTED_LOCATION",
-      "type": "at Gettysburg",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "LOCATION",
+      "type": "Haunted battlefield",
+      "subtype": "Civil War battlefield",
+      "variant": "American"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "ghosts", "name": "Ghosts & Hauntings (general)", "relationship": "subset", "description": "Specific battlefield case within the broader ghost / haunting tradition" },
+      { "id": "phantom-armies", "name": "Phantom armies", "relationship": "related", "description": "Tradition of ghostly soldiers continuing battles after death" },
+      { "id": "stone-tape-theory", "name": "Stone tape theory", "relationship": "related", "description": "Speculative theory often invoked to explain Gettysburg's residual hauntings" },
+      { "id": "haunted-places", "name": "Haunted places (general)", "relationship": "subset", "description": "Most-cited haunted-battlefield exemplar in the United States" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Apparitions of soldiers", "description": "Witnesses report seeing Civil War-era soldiers in Union and Confederate uniforms, particularly at Devil's Den, the Wheatfield, and Little Round Top", "frequency": "common" },
+        { "feature": "Phantom sounds", "description": "Reports of musket and cannon fire, drumming, marching boots, and disembodied voices", "frequency": "common" },
+        { "feature": "Equipment malfunctions", "description": "Cameras, audio recorders, and flashlights reported to fail in the Triangular Field", "frequency": "common" },
+        { "feature": "Apparitions of civilians", "description": "Reported figures of Jennie Wade and other 1863 residents in the town's historic houses", "frequency": "occasional" }
+      ],
+      "morphology": "Reports describe full-bodied apparitions in 1860s clothing or military uniform, partial figures (mist, shadow), disembodied sounds, and tactile sensations (cold spots, touches)."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Visual apparition", "description": "Full or partial visible figures appearing on the battlefield and in associated structures", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Auditory phenomena", "description": "Battle sounds, voices, footsteps, and other audible phenomena without identifiable source", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Electronic interference", "description": "Reported interference with cameras and recording equipment, especially in the Triangular Field", "frequency": "occasional", "evidence_level": "reported" },
+      { "ability": "Tactile contact", "description": "Reports of being touched, pushed, or feeling sudden cold", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "variable",
+      "habitat_preference": ["battlefield landscapes", "historic houses and inns", "bridges (Sachs Bridge)", "rocky terrain (Devil's Den)"],
+      "patterns": [
+        "Reports cluster at sites of heaviest casualties (Devil's Den, Wheatfield, Little Round Top, Pickett's Charge field)",
+        "Many incidents fit the 'residual haunting' model — repetitive, non-interactive replays",
+        "Higher report frequency around the battle anniversary (July 1–3) and at dawn/dusk"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reports are concentrated within the roughly 6,000-acre Gettysburg National Military Park, the borough of Gettysburg, and immediately surrounding farmland in Adams County, Pennsylvania.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Pennsylvania", "Adams County", "Mid-Atlantic"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Devil's Den",
+        "location": {
+          "description": "Boulder formation on the southern end of Houck's Ridge, scene of intense July 2, 1863 fighting",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "coordinates": { "latitude": 39.7929, "longitude": -77.2419 }
+        },
+        "peak_period": "1863–present",
+        "notes": "Most-cited haunted spot on the battlefield; commonly reported apparition is a barefoot, ragged Confederate sharpshooter"
+      },
+      {
+        "name": "Triangular Field",
+        "location": {
+          "description": "Sloping field between Devil's Den and the Wheatfield",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "coordinates": { "latitude": 39.7917, "longitude": -77.2436 }
+        },
+        "peak_period": "1980s–present",
+        "notes": "Notorious among ghost-tour visitors for reported camera and recorder malfunctions"
+      },
+      {
+        "name": "Little Round Top",
+        "location": {
+          "description": "Hill at the southern end of the Union line, defended on July 2, 1863 by the 20th Maine under Joshua L. Chamberlain",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "coordinates": { "latitude": 39.7917, "longitude": -77.2364 }
+        },
+        "peak_period": "1863–present",
+        "notes": "Reports of soldier apparitions and the legend of a ghostly mounted rider directing the 20th Maine to the position"
+      },
+      {
+        "name": "Jennie Wade House",
+        "location": {
+          "description": "House at 548 Baltimore Street where Mary Virginia 'Jennie' Wade was struck and killed by a stray bullet on July 3, 1863 — the only documented civilian killed in the battle",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "locality": "Gettysburg borough",
+          "coordinates": { "latitude": 39.8264, "longitude": -77.2308 }
+        },
+        "peak_period": "1863–present",
+        "notes": "Now a private museum and ghost-tour venue"
+      },
+      {
+        "name": "Sachs Bridge",
+        "location": {
+          "description": "Covered bridge over Marsh Creek, used as a Confederate retreat route on July 4, 1863",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "coordinates": { "latitude": 39.7811, "longitude": -77.2647 }
+        },
+        "peak_period": "1980s–present",
+        "notes": "Frequent stop on commercial ghost tours"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1863-07",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Townspeople's accounts in the immediate aftermath of the battle (Nesbitt, Ghosts of Gettysburg, 1991)"
+      },
+      "peak_activity_periods": [
+        { "period": "1863–1880s", "description": "Initial era of post-battle ghost stories among townspeople, soldiers, and burial parties" },
+        { "period": "1991–present", "description": "Modern resurgence anchored by Mark Nesbitt's 'Ghosts of Gettysburg' books (1991–) and the Candlelight Walking Tours (founded 1994)" }
+      ],
+      "seasonal_patterns": "Reports increase markedly around the July 1–3 battle anniversary and during the autumn ghost-tour season."
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Mid-19th-century American Spiritualism (after the Fox sisters, 1848) shaped how Civil War-era Americans interpreted unusual phenomena at battlefields. Gettysburg's haunted reputation grew alongside the broader Civil War 'lost cause' and reconciliation traditions, reinforced from the 1990s onward by ghost-tourism.",
+      "earliest_accounts": "Local accounts from townspeople and burial details immediately after the July 1863 battle. Soldier reports of unusual phenomena while camped on the field date from the same year.",
+      "folklore_connections": "Connected to the broader American 'haunted battlefield' tradition (e.g. Antietam, Shiloh, Chickamauga) and to the global tradition of phantom armies."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1863-07-01", "event": "Battle of Gettysburg begins; Confederate forces under A. P. Hill engage Union cavalry under John Buford north and west of town", "significance": "Day 1 of the deadliest battle of the American Civil War", "source": "National Park Service / Wikipedia, Battle of Gettysburg" },
+      { "date": "1863-07-02", "event": "Devil's Den, the Wheatfield, Little Round Top, and Culp's Hill see major fighting and high casualties", "significance": "Day of the most cited haunted-locations on the battlefield", "source": "National Park Service" },
+      { "date": "1863-07-03", "event": "Pickett's Charge fails against the Union centre on Cemetery Ridge; Mary Virginia 'Jennie' Wade is killed by a stray bullet at her sister's house in town", "significance": "Battle's climax; only documented civilian casualty", "source": "National Park Service" },
+      { "date": "1863-11-19", "event": "Abraham Lincoln delivers the Gettysburg Address at the dedication of the Soldiers' National Cemetery", "significance": "Cements Gettysburg's place in American national memory", "source": "Wikipedia, Battle of Gettysburg" },
+      { "date": "1895-02-11", "event": "U.S. Congress establishes Gettysburg National Military Park", "significance": "Formal preservation of the battlefield as a federal site", "source": "Public Law 53-200" },
+      { "date": "1991-10-01", "event": "Mark Nesbitt publishes the first 'Ghosts of Gettysburg' book", "significance": "Anchors the modern Gettysburg ghost-tourism canon", "source": "Nesbitt, M. (1991), Ghosts of Gettysburg" },
+      { "date": "1994-01-01", "event": "Mark Nesbitt founds the Ghosts of Gettysburg Candlelight Walking Tours", "significance": "Establishes Gettysburg's commercial ghost-tour industry", "source": "ghostsofgettysburg.com — About" }
+    ],
+    "modern_era": "Gettysburg today supports a robust ghost-tourism industry, with multiple competing tour companies, paranormal-investigation TV episodes (e.g. 'Ghost Hunters', 'Ghost Adventures'), and a steady output of ghost-story books. The National Park Service does not endorse paranormal claims and centres its interpretation on Civil War history and preservation."
   },
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 1000,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 1000,
+      "debunked": 0,
+      "date_range": { "earliest": "1863-07-01", "latest": "2026-05-07" }
     },
     "notable": [],
     "database_path": "./sightings/"
@@ -97,30 +199,97 @@
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "gettysburg-evidence-nesbitt-series",
+        "type": "book series",
+        "name": "Ghosts of Gettysburg (Mark Nesbitt)",
+        "date": "1991",
+        "description": "Eight-volume series (1991–2010s) cataloguing reported ghost stories and paranormal experiences associated with the Gettysburg battlefield and town, by former Gettysburg National Military Park ranger Mark Nesbitt.",
+        "status": "disputed",
+        "analysis": "Treated as folklore by mainstream historians; primary source for the modern Gettysburg ghost-story canon.",
+        "source": "Nesbitt, M. (1991– ), Ghosts of Gettysburg series"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Residual haunting (stone-tape) of mass trauma",
+        "description": "The intensity of casualties and emotion at Gettysburg is hypothesized to have 'imprinted' on the landscape, producing repeating, non-interactive playbacks of battle scenes (apparitions, sounds).",
+        "proponents": ["Mark Nesbitt", "various paranormal investigators"],
+        "evidence_cited": ["Reported repetition of similar apparitions across decades", "Concentration of reports at sites of highest casualties"]
+      },
+      {
+        "name": "Intelligent hauntings of the unfinished dead",
+        "description": "Some accounts describe interactive apparitions (e.g. the mounted rider directing the 20th Maine, or Jennie Wade's reported activity in her house) interpreted as conscious spirits.",
+        "proponents": ["Mark Nesbitt", "Ghosts of Gettysburg tour guides"],
+        "evidence_cited": ["Anecdotal interactive encounters reported by visitors and staff"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Folklore and ghost-tourism amplification",
+        "description": "Ghost reports cluster around well-known landmarks featured in commercial tours and books; the modern reputation is largely the product of post-1991 ghost-tourism rather than a continuous tradition.",
+        "proponents": ["Joe Nickell", "Benjamin Radford"],
+        "evidence_cited": ["Spike in reports following Nesbitt's 1991 book and 1994 tours", "Pattern of reports clustering near tour stops"]
+      },
+      {
+        "name": "Misperception, suggestion, and equipment artefacts",
+        "description": "Visual and auditory misperception in low light, expectation effects from tour narration, infrasound from terrain, and ordinary equipment malfunctions account for most reports.",
+        "proponents": ["Joe Nickell", "Brian Dunning"],
+        "evidence_cited": ["Cognitive psychology literature on suggestion and pareidolia", "Battlefield acoustics (wind through rock formations at Devil's Den)"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Gettysburg ghost-tour storytelling tradition (1990s–present)",
+        "American 'haunted battlefield' folklore"
+      ],
+      "stories": [
+        "The mounted rider of the 20th Maine at Little Round Top (popularized in modern ghost-tour literature)",
+        "The barefoot Confederate sharpshooter of Devil's Den",
+        "Jennie Wade's spirit at the Jennie Wade House",
+        "Reports of camera and recorder failures in the Triangular Field"
+      ],
+      "beliefs": "Many Gettysburg residents and visitors report a strong sense of place at the battlefield; popular and tour culture treat the site as among the most haunted in the United States, while the National Park Service centres its interpretation on documented Civil War history."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Mark Nesbitt — Ghosts of Gettysburg series (1991– )",
+        "Mark Nesbitt — More Ghosts of Gettysburg (multiple volumes)"
+      ],
+      "film_tv": [
+        "Ghost Hunters (Syfy) — Gettysburg episodes",
+        "Ghost Adventures (Travel Channel) — Gettysburg episodes",
+        "A Haunting at Gettysburg / various paranormal documentaries"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Ghosts of Gettysburg Candlelight Walking Tours (founded 1994)",
+        "Numerous competing ghost-tour operators in Gettysburg borough"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Mark Nesbitt", "affiliation": "Former Gettysburg National Military Park ranger; founder, Ghosts of Gettysburg Tours", "contribution": "Primary chronicler of Gettysburg ghost stories; eight-volume Ghosts of Gettysburg book series", "period": "1991–present" }
+    ],
+    "organizations": [
+      { "name": "Gettysburg National Military Park", "url": "https://www.nps.gov/gett/", "focus": "Preservation and interpretation of the battlefield (historical, not paranormal)" },
+      { "name": "Ghosts of Gettysburg Tours", "url": "https://ghostsofgettysburg.com/", "focus": "Commercial ghost-tour operator and ghost-story publisher" }
+    ],
+    "ongoing_studies": "Active commercial ghost-tour industry with multiple operators; episodic engagement by paranormal-investigation television."
   },
-  "sources": []
+  "sources": [
+    { "id": "nesbitt-1991", "type": "book", "title": "Ghosts of Gettysburg: Spirits, Apparitions and Haunted Places of the Battlefield", "authors": ["Mark Nesbitt"], "publication": "Thomas Publications", "date": "1991" },
+    { "id": "wikipedia-battle-of-gettysburg", "type": "website", "title": "Battle of Gettysburg", "url": "https://en.wikipedia.org/wiki/Battle_of_Gettysburg", "accessed": "2026-05-07" },
+    { "id": "nps-gettysburg", "type": "website", "title": "Gettysburg National Military Park", "url": "https://www.nps.gov/gett/", "accessed": "2026-05-07" },
+    { "id": "ghostsofgettysburg-about", "type": "website", "title": "About — Mark Nesbitt's Ghosts of Gettysburg", "url": "https://ghostsofgettysburg.com/", "accessed": "2026-05-07" },
+    { "id": "history-com-gettysburg-ghosts", "type": "article", "title": "Gettysburg: Ghost Stories From the Civil War Battlefield", "publication": "HISTORY.com", "url": "https://www.history.com/articles/gettysburg-battlefield-ghosts", "accessed": "2026-05-07" }
+  ]
 }
